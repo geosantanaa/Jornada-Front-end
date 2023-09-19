@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+/* As cores em RGBa seguem a mesma ideia do RGB, mas o "a" representa uma tonalidade de opacidade, os valores vão de 0 a 1, sendo 1 totalmente transparente */
+.color-rgba{
+    color: rgba(255, 0, 0, 0.4);
+}
+
+.color-rgba-2{
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.color-rgba-3{
+    color: rgba(0, 0, 255, 0.7);
+}

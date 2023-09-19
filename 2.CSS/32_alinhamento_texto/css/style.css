@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+
+/* Para alinhar um texto ao centro utilizamos o recurso "text-aling" */
+.text-aling{
+background-color: rgb(109, 236, 194);
+color: black;
+text-align: center;
+}
+
+.text-not-aling{
+background-color: rgb(212, 183, 88);
+color: black;
+}
+
+
+

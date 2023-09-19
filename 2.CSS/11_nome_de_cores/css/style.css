@@ -1,0 +1,7 @@
+body{
+    background-color: antiquewhite;
+}
+/* As cores podem ser inseridas pelo nome, mas esse método não é muito utilizado */
+.color-name{
+    color: yellowgreen;
+}

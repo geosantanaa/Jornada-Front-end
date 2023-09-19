@@ -1,0 +1,13 @@
+/* O background color é responsável por preencher todo fundo daquele elemento com alguma cor*/
+body{
+    background-color: antiquewhite;
+}
+.bg{
+    background-color: #ef6;
+    color: black;
+}
+
+.bg-2{
+    background-color: #8f5;
+    color: aliceblue;
+}

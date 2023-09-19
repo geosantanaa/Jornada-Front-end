@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+/* No CSS também podemos adicionar diferentes estilos de fontes, para isso usa-se o recurso "font-family" */
+.font-serif{
+    background-color: violet;
+    font-family: serif;
+}
+
+.font-monospace{
+    background-color: violet;
+    font-family: monospace;
+}
+
+.font-cursive{
+    background-color: violet;
+    font-family: cursive;
+}
+
+

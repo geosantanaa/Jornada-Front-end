@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+.display-inline-box{
+    width: 100px;
+    height: 50px;;
+    margin: 10px;
+    background-color: rgb(150, 150, 247);
+    display: inline-block;
+}
+/* Com o valor "none", no recurso display o elemento não aparecerá na página */
+.display-inline-box-none{
+    width: 100px;
+    height: 50px;;
+    margin: 10px;
+    background-color: rgb(150, 150, 247);
+    display: none;
+}
+
+.display-block{
+    display: block;
+    background-color: rgb(241, 229, 159);
+    margin: 10px;
+}
+
+
+
+
+

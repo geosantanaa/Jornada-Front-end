@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+/* Quando a numeração e as letras são repetidas, por exemplo #11ff44, podemos simplificar seguindo os exemploso logo abaixo */
+.color-hexadecimal-simples-1{
+    color: #1f4;
+}
+
+.color-hexadecimal-simples-2{
+    color: #8ea;
+}

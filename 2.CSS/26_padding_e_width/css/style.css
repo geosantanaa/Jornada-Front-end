@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o recurso de border-box o elemento consegue ser implementado num layout mais padronizado e assertivo
+ segue abaixo um exemplo sem o border-box e sem ele*/
+.without-border-box{
+  background-color: rgba(153, 223, 247, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+}
+
+.border-box{
+  background-color: rgba(191, 247, 153, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+/*  A inclusão do opacity também dá um tom de transparencia na cor de fundo do elemento */
+.bg-opacity{
+    background-color: #ef6;
+    opacity: 0.2;
+}
+
+.bg-opacity-2{
+    background-color: #8f5;
+    color: black;
+    opacity: 0.5;
+}

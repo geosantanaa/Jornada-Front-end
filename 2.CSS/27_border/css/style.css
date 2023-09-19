@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+/* As bordas formam um contorno em volta do elemento */
+.without-border{
+  background-color: rgba(153, 223, 247, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.border{
+  background-color: rgba(191, 247, 153, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 3px solid black;
+}
+

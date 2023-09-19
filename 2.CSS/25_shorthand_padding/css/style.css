@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o método shorthand é possivel simplificar a regra e economizar nas linhas de códigos */
+.shorthand-padding{
+  background-color: rgb(43, 116, 226);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  /* também pode ta sendo usado dessa forma aqui 
+  padding: 10px 20px; */
+}
+

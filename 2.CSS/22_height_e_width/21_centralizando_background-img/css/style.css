@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+/* O heigth é a altura e width a largura do elemento */
+.height-width-1{
+  height: 100px;
+  width: 200px;
+  background-color: blueviolet;
+}
+
+.height-width-2{
+  height: 100px;
+  background-color: rgb(43, 116, 226);
+}
+

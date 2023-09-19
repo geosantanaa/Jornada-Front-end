@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+/* esse recurso forma uma linha horizontal embaixo do texto selecionado na classe */
+.text-decoration-1{
+    text-decoration: underline;
+}
+/* este recurso forma uma linha no meio do texto, (texto riscado) */
+.text-decoration-2{
+    text-decoration:line-through
+}
+/* nesse exemplo o recurso retira a linha na parte de baixo do texto, bastante utilizado para links que ja vem com essa linha fixada */
+.text-aling-3{
+    text-decoration: none;
+}
+
+
+

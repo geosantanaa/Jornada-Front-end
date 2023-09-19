@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com a posição absolute ele utiliza o ponto superior esquerdo de outros elementos, dessa forma com os recurso top, left, rigth entre outros valores para movimentação do elemento*/
+.position-absolute{
+    width: 200px;
+    height: 100px;;
+    margin: 10px;
+    background-color: rgb(150, 150, 247);
+    position: absolute;
+    top: 10px;
+    right: 5px;
+
+}
+
+
+
+
+
+
+

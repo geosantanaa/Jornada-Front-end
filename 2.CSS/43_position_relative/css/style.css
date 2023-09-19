@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+/* A posição relative ja começa a ganhar movimento com os valores em top e left conforme desejado e especificado no CSS
+   a position relative utiliza seu próprio canto para referenciar sua poisção
+   OBS: é importante utilizar essas positions com cuidado e sabedoria, pois todos esses valores influenciam em como o layout se forma em toda a página*/
+.position-relative{
+    width: 200px;
+    height: 100px;;
+    margin: 10px;
+    background-color: rgb(150, 150, 247);
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+
+#style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: violet;
+}
+/* As fontes com o recurso font-weight recebem um valor que vai de 100 a 900, quanto maior o valor, mais grosso será a espessura da letra */
+.font-weight-1{
+    font-weight: 100;
+}
+
+.font-weight-2{
+    font-weight: 900
+}
+
+
+
+
+

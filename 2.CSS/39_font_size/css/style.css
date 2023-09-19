@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o recurso "font-size" o texto ganha um tamanho personalizado */
+.font-size-1{
+    font-size: 80px;
+}
+
+.font-size-2{
+   font-size: 15px;
+}
+
+
+
+
+

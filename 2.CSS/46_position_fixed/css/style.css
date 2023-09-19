@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com a position fixed o elemnto fica fixo na tela, mesmo com a rolagem dela*/
+.position-fixed{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: fixed;
+    top: 20px;
+}
+.title{
+    font-size: 300px;
+}
+
+
+
+
+
+

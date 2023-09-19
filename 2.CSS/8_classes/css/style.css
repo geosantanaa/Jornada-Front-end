@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+/* Estilizando todos os parágrafos que tem o nome dessa classe */
+.paragraph{
+    background-color: yellowgreen;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

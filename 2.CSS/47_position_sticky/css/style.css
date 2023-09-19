@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com essa posição o elemneto se estica a partir de sua posição, e com o rolar da página para baixo o elemento acompanha  */
+.position-sticky{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: sticky;
+    top: 20px;
+}
+.title{
+    font-size: 300px;
+}
+
+
+
+
+
+

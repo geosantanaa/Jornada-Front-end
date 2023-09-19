@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+/* Este texto está com letras maisculas */
+.text-transform-1{
+    background-color: violet;
+    text-transform: uppercase;
+}
+/* Este texto está com letras minusculas */
+.text-transform-2{
+    background-color: violet;
+    text-transform:lowercase
+}
+
+

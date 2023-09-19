@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+/* Para inserir o ID colocamos o #, seguido do nome do id determinado no HTML,
+ lembrando que é importante que tenha apenas um ID por página */ 
+#exclusive-title{
+    background-color:violet;
+    color: black;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* Para inserir a classe, coloca-se o ponto */
+.paragraph{
+    background-color: yellowgreen;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}

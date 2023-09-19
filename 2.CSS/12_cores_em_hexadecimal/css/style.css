@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+/* As cores em hexadecimal podem ser adicionadas com # seguido de uma sequência de números e letras que vão de 0 a 9, e A a F */
+.color-hexadecimal-1{
+    color: #1f87d0;
+}
+
+.color-hexadecimal-2{
+    color: #897a4e;
+}

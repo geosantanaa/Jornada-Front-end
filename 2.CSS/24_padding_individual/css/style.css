@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o padding individual é possivel personalizar os lados dando tamanhos diferentes para cada um deles */
+.padding-individual{
+  background-color: rgb(43, 116, 226);
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+

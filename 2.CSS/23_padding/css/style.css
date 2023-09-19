@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+/* O padding é um espaçamento interno contido no elemento */
+.without-padding{
+  background-color: blueviolet;
+  color: white;
+}
+
+.padding{
+  padding: 20px;
+  background-color: rgb(43, 116, 226); /*o fundo do elemento */
+  color: white; /*a cor do texto */
+}
+

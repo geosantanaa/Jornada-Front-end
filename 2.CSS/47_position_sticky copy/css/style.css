@@ -1,0 +1,52 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com a utilização do z-index o elemento que tiver a maior númeração ganhará mais destaque  */
+.relative-container{
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    margin-top: 200px;
+    position: relative;
+}
+.absolute-1,
+ .absolute-2, 
+ .absolute-3,
+  .absolute-4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+
+}
+.absolute-1{
+    background-color: rgb(49, 49, 105);
+        top: 40px;
+
+}
+.absolute-2{
+    background-color: rgb(10, 54, 37);
+    top:50px;
+    right: 10px;
+    z-index: 5;
+
+}
+.absolute-3{
+    background-color: rgb(21, 21, 202);
+    top: 60px;
+    right: 90px;
+
+}
+/* não apaga o elemento mas dá destaque na ordem de vizualização */
+.absolute-4{
+    background-color: rgb(202, 21, 75);
+    top: 70px;
+    right: 10px;
+    z-index: 10;
+
+}
+
+
+
+
+
+

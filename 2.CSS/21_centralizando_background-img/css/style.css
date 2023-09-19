@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+.bg-centralized-not-img, 
+.bg-centralized-img{
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/paisagem1.jpg") ;
+}
+
+/* Utilizando o background-position como valor de center, é possivel centralizar a imagem dentro do espaço que foi estabelecido pelo mesmo */
+.bg-centralized-img{
+  background-position: center;
+  background-size: cover;
+}
+

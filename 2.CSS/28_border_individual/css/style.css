@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+.border-1{
+  background-color: rgba(153, 223, 247, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 3px solid black;
+}
+
+/* As bordas inividuais formam um contorno em volta do lado determinado nas regras abaixo */
+.border-individual-1{
+  background-color: rgba(191, 247, 153, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-right: 3px solid black; /* borda na parte direita do elemento */
+}
+.border-individual-2{
+  background-color: rgba(247, 203, 153, 0.867);
+  color: violet;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-bottom: 3px solid black;  /* borda na parte de baixo do elemento */
+}
+

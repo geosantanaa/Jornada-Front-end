@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+/* Utilizando todas as propriedades do box model */
+.box-model{
+  margin: 15px;
+  padding: 10px 25px;
+  border: 2px double violet;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+}
+

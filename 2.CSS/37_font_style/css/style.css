@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o recurso font-style podemos dar mais estilos as letras, tornando elas mais desenhadas entre outros estilos */
+.font-style-1{
+    background-color: violet;
+    font-family: serif;
+    font-style: italic;
+}
+
+.font-style-2{
+    background-color: violet;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+
+

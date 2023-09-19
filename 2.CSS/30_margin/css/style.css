@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+/* A margem é um espaçamento externo bastante utilizado */
+.margin{
+  background-color: rgba(153, 223, 247, 0.867);
+  color: violet;
+  margin: 15px;
+  
+}
+
+.margin-rigth{
+  background-color: rgba(191, 247, 153, 0.867);
+  color: violet;
+  margin-right: 10px;  /* Margem individual aplicada na parte direita */
+}
+.margin-shorthand{
+  background-color: rgba(247, 203, 153, 0.867);
+  color: violet;
+  margin: 20px 10px 15px 39px; /* Margem simplificada utilizando o metodo shorthand */
+}
+

@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+/* O background img segue a mesma ideia do color, mas ao invés de uma cor, no fundo será adicionado uma imagem */
+.bg-img{
+  background-image: url("../img/estrelas.jpg") ;
+  color: white;
+}
+

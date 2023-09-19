@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+/* A regra do opacity segue a mesma ideia no RGBa */
+.bg-rgba-opacity-1{
+    background-color: rgba(231, 131, 124, 0.2);
+    color: black;
+}
+
+.bg-rgba-opacity-2{
+    background-color: rgba(0, 255, 0, 0.2);
+    color: black;
+}

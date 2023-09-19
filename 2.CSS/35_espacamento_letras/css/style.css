@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+/* O recurso "letter-spacing" dá um espaçamento nas letras do texto */
+.text-spacing{
+    background-color: violet;
+    letter-spacing: 10px;
+}
+
+.text{
+    background-color: violet;
+}
+
+

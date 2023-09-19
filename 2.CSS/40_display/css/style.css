@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o recurso display podemos personalizar os blocos, nesses exemplos temos o tamanho dos elementos, a margem a cor de fundo e o display dividido em blocos em uma linha */
+.display-inline-box{
+    width: 100px;
+    height: 50px;;
+    margin: 10px;
+    background-color: rgb(150, 150, 247);
+    display: inline-block;
+}
+
+/* Nesse exemplo aqui o bloco preenche toda linha da página*/
+.display-block{
+    display: block;
+    background-color: rgb(241, 229, 159);
+    margin: 10px;
+}
+
+
+
+
+

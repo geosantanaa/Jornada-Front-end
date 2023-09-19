@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+/* Com o position com valor static, ainda não se vê muitas mudanças na página pois ele segue o fluxo do HTML e no navegador */
+.position-static{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(150, 150, 247);
+    position: static;
+}
+
+
+
+
+
+
+
