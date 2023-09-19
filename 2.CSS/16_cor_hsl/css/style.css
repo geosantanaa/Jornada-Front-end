@@ -1,7 +1,7 @@
 body{
     background-color: antiquewhite;
 }
-/* As cores em hsl, são pouquissimas ultizadas. São representada por três valores que dão tonalidades diferentes */
+/* As cores em hsl, são pouco ultizadas. São representada por três valores que dão tonalidades diferentes */
 .color-hsl{
     color: hsl(197, 50%, 70%);
 }

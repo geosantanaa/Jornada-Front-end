@@ -1,7 +1,7 @@
 body{
     background-color: antiquewhite;
 }
-/* Para arredondar as bordas utiliza - se o recurso "border-radius" e o valor desse contorno. Segue abaixo direfrentes exemplos */
+/* Para arredondar as bordas utiliza-se o recurso "border-radius" e o valor desse contorno. Segue abaixo direfrentes exemplos */
 .border-arredondada{
   background-color: rgba(153, 223, 247, 0.867);
   color: violet;

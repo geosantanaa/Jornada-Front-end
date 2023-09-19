@@ -10,7 +10,7 @@ body{
   border: 3px solid black;
 }
 
-/* As bordas inividuais formam um contorno em volta do lado determinado nas regras abaixo */
+/* As bordas individuais formam um contorno em volta do lado determinado nas regras abaixo */
 .border-individual-1{
   background-color: rgba(191, 247, 153, 0.867);
   color: violet;
