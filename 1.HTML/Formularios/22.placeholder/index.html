@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Placeholder</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <form action="register.js" method="GET"> 
+        <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+    </div>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade">
+    </div>
+    <div>
+        <label for="pet">Selecione seu pet</label>
+        <select name="pet">
+            <option  selected value="selecione">selecione</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="passaro">Passáro</option>
+        </select>
+    </div>
+    <div>
+        <label for="pet">Selecione o(s) alimento(s) do seu pet</label>
+        <select name="pet" multiple>
+            <option value="racao">Ração</option>
+            <option value="frutas">Frutas</option>
+            <option value="sache">Sachê</option>
+            <option value="petiscos">Petiscos</option>
+            <option value="arroz">Arroz</option>
+        </select>
+    </div>
+    <div>
+        <label for="descricao">Descreva um pouco sobre o seu pet:</label>
+        <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <fieldset>
+           <legend>Informe seu endereço</legend>
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua">
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro">
+            <label for="numero">Número:</label>
+            <input type="text" name="numero">
+        </fieldset>
+    </div>
+    <div>
+        <label for="comando">Escolha os comandos que seu pet ja obedece:</label>
+        <input type="text" list="comandos" name="comando">
+        <datalist id="comandos">
+        <option value="senta"></option>
+        <option value="rola"></option>
+        <option value="fica"></option>
+        <option value="deita"></option>
+        </datalist>
+    </div>
+    <div>
+        <label for="password">Senha:</label>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <label class="raca-label" for="raca">Informe a especie do seu pet:</label>
+        <div class="radio">
+            <input type="radio" value="canino" name="raca">
+            <label for="raca">Canino</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="felino" name="raca">
+            <label for="raca">Felino</label>
+        </div>
+    </div>
+    <div>
+        <label for="brinquedos">Selecione os estilos de brinquedos do seu pet:</label>
+        <div class="radio">
+            <input type="checkbox" name="brinqueados[]" value="bolinha">
+            <label for="brinc_pet">Bolinha</label>
+        </div>
+        <div class="radio">
+            <input type="checkbox" name="brinqueados[]" value="orelha">
+            <label for="brinc_pet">Orelha suína desidratada</label>
+        </div>
+        <div class="radio">
+            <input type="checkbox" name="brinqueados[]" value="pelucia">
+            <label for="brinc_pet">Bichinho de pelúcia</label>
+        </div>
+    </div>
+    <div>
+        <label for="date">Informe a data de aniversário do seu pet:</label>
+        <input type="date" name="date">
+    </div>
+    <div>
+        <label for="photo">Anexe a foto do seu pet:</label>
+        <input type="file" name="photo">
+    </div>
+    <div>
+        <label for="age">Idade do seu pet:</label>
+        <input type="number" name="age">
+    </div>
+    <div>
+        <!-- O atributo "placeholder" é inserido como forma de descrever o que se espera dentro daquele input -->
+        <label for="email">Informe seu e-mail:</label>
+        <input type="email" name="email" placeholder="informe seu email">
+    </div>
+    <div>
+        <label for="bio">Resuma seu pet em uma frase:</label>
+        <input type="text" value="pet muito alegre"name="bio" disabled>
+    </div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

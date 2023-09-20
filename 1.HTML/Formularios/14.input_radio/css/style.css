@@ -1,0 +1,17 @@
+body{
+    padding-bottom: 500px;
+}
+/* dando espaçamento entre uma div e outra */
+div{
+    margin-bottom: 10px; 
+}
+/* colocando os elementos de label e input, um abaixo do outro */
+div input,
+ div label{
+ display: block;
+}
+
+.radio label,
+.radio input {
+  display: inline-block; /* Define o modo de exibição como inline-block e faz com que o circulo do input fique lado a lado da label (descrição)*/
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Atributo selected</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <form action="register.js" method="GET"> 
+        <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+    </div>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade">
+    </div>
+    <div>
+        <label for="pet">Selecione seu pet</label>
+        <select name="pet">
+            <!-- com o atributo "selected" a option ja fica pré selecionada na caixa de opções -->
+            <option  selected value="selecione">selecione</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="passaro">Passáro</option>
+        </select>
+    </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

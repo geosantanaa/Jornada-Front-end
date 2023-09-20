@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Input para senhas</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <form action="register.js" method="GET"> 
+        <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+    </div>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade">
+    </div>
+    <div>
+        <label for="pet">Selecione seu pet</label>
+        <select name="pet">
+            <option  selected value="selecione">selecione</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="passaro">Passáro</option>
+        </select>
+    </div>
+    <div>
+        <label for="pet">Selecione o(s) alimento(s) do seu pet</label>
+        <select name="pet" multiple>
+            <option value="racao">Ração</option>
+            <option value="frutas">Frutas</option>
+            <option value="sache">Sachê</option>
+            <option value="petiscos">Petiscos</option>
+            <option value="arroz">Arroz</option>
+        </select>
+    </div>
+    <div>
+        <label for="descricao">Descreva um pouco sobre o seu pet:</label>
+        <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <fieldset>
+           <legend>Informe seu endereço</legend>
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua">
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro">
+            <label for="numero">Número:</label>
+            <input type="text" name="numero">
+        </fieldset>
+    </div>
+    <div>
+        <label for="comando">Escolha os comandos que seu pet ja obedece:</label>
+        <input type="text" list="comandos" name="comando">
+        
+        <datalist id="comandos">
+        <option value="senta"></option>
+        <option value="rola"></option>
+        <option value="fica"></option>
+        <option value="deita"></option>
+        </datalist>
+    </div>
+    <div>
+        <label for="password">Senha:</label>
+        <!-- O input do type password serve para receber senhas, e virem mascaradas. Para 
+             a senha não ficar aparente. Na maneira que a senha é escrita no input, ela é 
+             escrita em formato de bolinhas (mascaradas) -->
+        <input type="password" name="password">
+    </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
